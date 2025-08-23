@@ -170,9 +170,9 @@ a:hover {
 .performance-table td:nth-child(2),
 .performance-table td:nth-child(3),
 .performance-table td:nth-child(4) {
-    width: 115px !important;
-    min-width: 115px !important;
-    max-width: 115px !important;
+    width: 120px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
 }
 
 .performance-table td {
@@ -216,13 +216,18 @@ a:hover {
     }
     
     .performance-table th:nth-child(2),
-    .performance-table th:nth-child(3),
     .performance-table th:nth-child(4),
     .performance-table td:nth-child(2),
-    .performance-table td:nth-child(3),
     .performance-table td:nth-child(4) {
         width: 90px !important;
         min-width: 90px !important;
         max-width: 90px !important;
+    }
+    
+    .performance-table th:nth-child(3),
+    .performance-table td:nth-child(3) {
+        width: 75px !important;
+        min-width: 75px !important;
+        max-width: 75px !important;
     }
 }
