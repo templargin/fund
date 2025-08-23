@@ -1,0 +1,113 @@
+/* Old School Investment Fund Website Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 40px;
+    box-shadow: 5px 5px 0px #ccc;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px double #000;
+    padding-bottom: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+#fund-logo {
+    max-width: 200px;
+    max-height: 100px;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 15px 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.contact p {
+    text-indent: 0;
+    margin-bottom: 8px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 3px double #000;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    text-align: center;
+    text-indent: 0;
+    margin-bottom: 8px;
+}
+
+/* Print styles for a more authentic old-school look */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+    
+    .container {
+        border: none;
+        box-shadow: none;
+        padding: 20px;
+    }
+}
+
+/* Simple hover effects for links (if any are added later) */
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
