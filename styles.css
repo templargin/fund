@@ -23,6 +23,23 @@ body {
     box-shadow: 5px 5px 0px #ccc;
 }
 
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        border-width: 1px;
+        box-shadow: none;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+}
+
 header {
     text-align: center;
     margin-bottom: 40px;
