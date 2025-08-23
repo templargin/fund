@@ -62,7 +62,7 @@ header {
 h1 {
     font-size: 36px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
@@ -124,4 +124,105 @@ a {
 a:hover {
     color: #333;
     text-decoration: none;
+}
+
+/* Performance Table Styles */
+.performance-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: "Times New Roman", Times, serif;
+    border: 2px solid #000;
+    table-layout: fixed;
+}
+
+.performance-table th,
+.performance-table td {
+    padding: 4px 16px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.performance-table td:first-child {
+    text-align: left;
+}
+
+.performance-table th {
+    text-align: center;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.performance-table th:first-child {
+    text-align: left;
+}
+
+.performance-table th:first-child,
+.performance-table td:first-child {
+    width: 45px;
+    min-width: 45px;
+}
+
+.performance-table th:nth-child(2),
+.performance-table th:nth-child(3),
+.performance-table th:nth-child(4),
+.performance-table td:nth-child(2),
+.performance-table td:nth-child(3),
+.performance-table td:nth-child(4) {
+    width: 115px !important;
+    min-width: 115px !important;
+    max-width: 115px !important;
+}
+
+.performance-table td {
+    font-size: 16px;
+}
+
+
+
+.disclaimer {
+    font-size: 14px;
+    font-style: italic;
+    text-align: left !important;
+    margin-top: 2px;
+    color: #666;
+    text-indent: 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: block;
+}
+
+/* Mobile responsive table adjustments */
+@media (max-width: 768px) {
+    .performance-table {
+        font-size: 14px;
+    }
+    
+    .performance-table th,
+    .performance-table td {
+        padding: 3px 8px;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .performance-table th:first-child,
+    .performance-table td:first-child {
+        text-align: left;
+    }
+    
+    .performance-table th {
+        font-size: 12px;
+    }
+    
+    .performance-table th:nth-child(2),
+    .performance-table th:nth-child(3),
+    .performance-table th:nth-child(4),
+    .performance-table td:nth-child(2),
+    .performance-table td:nth-child(3),
+    .performance-table td:nth-child(4) {
+        width: 90px !important;
+        min-width: 90px !important;
+        max-width: 90px !important;
+    }
 }
